@@ -1,0 +1,15 @@
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script>  
+    (function() {
+      "use strict";
+
+      var observer = new MutationObserver(function() {
+        if (document.body) {
+          // It exists now
+          $('body').prepend(`<div id='pnc-loader'><div class="pnc-loader"></div></div>`)
+          observer.disconnect();
+        }
+      });
+      observer.observe(document.documentElement, {childList: true});
+    })();
+</script>

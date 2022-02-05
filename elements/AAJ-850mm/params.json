@@ -1,0 +1,78 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 14,
+        "width": 14
+    },
+    "display": "Loader",
+    "fields": {
+        "AAC": {
+            "caption": "Automatically close the loader",
+            "default_val": true,
+            "doc": "",
+            "editor": "Checkbox",
+            "name": "auto_close",
+            "rank": 6
+        },
+        "AAD": {
+            "caption": "Close X ms after the page is loaded",
+            "default_val": 5000,
+            "doc": "Set the time delay where the loader is automatically closed after page is loaded. ",
+            "editor": "StaticNumber",
+            "name": "auto_close_delay",
+            "rank": 7
+        },
+        "AAG": {
+            "caption": "Lottie animation code",
+            "default_val": "",
+            "doc": "",
+            "editor": "StaticText",
+            "in_style": true,
+            "long_text": true,
+            "name": "lottie_code",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Background color",
+            "default_val": "rgba(255, 255, 255, 1)",
+            "doc": "",
+            "editor": "Color",
+            "in_style": true,
+            "name": "background_color",
+            "rank": 2
+        },
+        "AAI": {
+            "caption": "The Loader can be automatically closed by checking the option below and setting the amount of time you would like it to close after the page is loaded.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 3
+        },
+        "AAQ": {
+            "caption": "TIP: To keep the loader from showing on page load, set the delay to 1ms.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 4
+        },
+        "AAR": {
+            "caption": "Alternately, you can close the loader programmatically by using the ‘Hide loader’ action.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 5
+        },
+        "AAS": {
+            "caption": "[OPTIONAL] Use a custom animation on your loader. Simply go to lottiefiles.com fo find or create an animation and paste the code below.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    },
+    "icon": "ion-load-a",
+    "property_applications": {
+        "Font": false,
+        "MinWidth": true,
+        "resizable": true
+    }
+}

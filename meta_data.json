@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "containers",
+        "1": "media",
+        "2": "small business",
+        "3": "productivity",
+        "4": "technical"
+    },
+    "description": "Finally, a page loader that actually works! This loader will display before your Bubble page elements are visible on the screen. No more awkward page loading 🙌🎉\n\nMatch your branding with fast loading custom Lottie file animations!\n\nAuto hide the loader on a time delay or show/hide the loader on demand with Bubble actions!",
+    "image": "//s3.amazonaws.com/appforest_uf/f1642955005176x931843650881477800/Screen%20Shot%202022-01-23%20at%2011.22.39%20AM.png",
+    "license": "open_source",
+    "link": "pronocoders.com",
+    "name": "1T - Page Loader",
+    "plugin_instructions": "Add the Loader element to your Bubble page. It's that easy! \n\nIf there is a loader element on the current Bubble page you can use the show and hide actions from any where in your app including reusables! "
+}

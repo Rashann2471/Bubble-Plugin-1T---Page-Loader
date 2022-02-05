@@ -1,0 +1,23 @@
+{
+    "category": "plugins",
+    "display": "Show loader",
+    "fields": {
+        "AAK": {
+            "caption": "Lottie animation code",
+            "doc": "[OPTIONAL] You can send a custom animation to the loader when running this action. Go to lottiefiles.com fo find an animation and paste the code here.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "lottie_code",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "This action can be run from anywhere in your app (including reusables) so long as the “Loader” element is present on the current Bubble page.",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        }
+    },
+    "type": "client_side"
+}
